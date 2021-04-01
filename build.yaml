@@ -1,0 +1,15 @@
+targets:
+  $default:
+    sources:
+      - lib/**
+      - swaggers/**
+      - swaggers2/**
+      - swagger_examples/**
+      - $package$
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: 'lib/'
+          output_folder: 'lib/generated_code/'
+          with_base_url: true
+          with_converter: true
