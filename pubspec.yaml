@@ -1,5 +1,5 @@
 name: iridium
-description: A new Flutter project.
+description: Multi-platform Fitting App for Eve Online.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -28,10 +28,19 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  chopper: ^4.0.0-nullsafety.0
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  chopper_generator: ^4.0.0-nullsafety.0
+  json_annotation: ^4.0.0
+  json_serializable: ^4.0.0
+  swagger_dart_code_generator:
+    git: git@github.com:epam-cross-platform-lab/swagger-dart-code-generator.git
+  build_runner: ^1.11.1
+  test: ^1.16.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
